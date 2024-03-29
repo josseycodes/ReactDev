@@ -1,5 +1,6 @@
-
-
+import curry from './img/curry.jpg'
+import noodles from './img/noodles.jpg'
+import stew from './img/stew.jpg'
 
 
 export default function App() {
@@ -51,7 +52,7 @@ export default function App() {
 
         <div>
           <div>
-            <img src="/src/img/stew.jpg" alt="stew"/>
+            <img src={stew} alt="stew"/>
             <div>
               <span>Bean Chilli Stew</span>
               <span>Recipe by Mario</span>
