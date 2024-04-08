@@ -5,15 +5,15 @@ import stew from './img/stew.jpg'
 
 export default function App() {
   return (
-    <body class="text-red-800">
+    <body class="text-blue-800">
   <div>
     <div>
         <nav>
             <div>
-                <h1 class="text-3xl text-red-800 pt-10">Food Ninja</h1>
+                <h1 class="text-3xl text-red-700">Food Ninja</h1>
             </div>
             <ul>
-              <li class="font-bold text-3xl mt-10">
+              <li class="">
                 <a href="#">
                   <span>Home</span>
                 </a>
@@ -42,8 +42,8 @@ export default function App() {
 
       <header>
         <div>
-          <h2 class="font-bold text-3xl uppercase text-red-400">Recipes</h2>
-          <h3 class="font-light text-3xl">For Ninjas</h3>
+          <h2 class="font-bold text-3xl uppercase">Recipes</h2>
+          <h3 class="font-light text-3xl text-green-700">For Ninjas</h3>
         </div>
       </header>
 
